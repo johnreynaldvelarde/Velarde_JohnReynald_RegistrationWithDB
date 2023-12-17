@@ -152,6 +152,7 @@
             // cb_StudentID
             // 
             this.cb_StudentID.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cb_StudentID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_StudentID.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cb_StudentID.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_StudentID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(93)))), ((int)(((byte)(93)))));
@@ -160,7 +161,6 @@
             this.cb_StudentID.Name = "cb_StudentID";
             this.cb_StudentID.Size = new System.Drawing.Size(344, 28);
             this.cb_StudentID.TabIndex = 9;
-            this.cb_StudentID.Text = "-Select Student ID-";
             this.cb_StudentID.SelectedIndexChanged += new System.EventHandler(this.cbStudentID_SelectedIndexChanged);
             // 
             // panel15
