@@ -311,6 +311,7 @@
             // cbGender
             // 
             this.cbGender.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbGender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbGender.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbGender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(93)))), ((int)(((byte)(93)))));
@@ -354,6 +355,7 @@
             // cbProgram
             // 
             this.cbProgram.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbProgram.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbProgram.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbProgram.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbProgram.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(93)))), ((int)(((byte)(93)))));
